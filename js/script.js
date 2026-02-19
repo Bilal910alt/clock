@@ -57,7 +57,7 @@ function full() {
     }
     setTimeout(() => {
         full();
-    }, 10);
+    }, 1000);
 
 }
 full()
